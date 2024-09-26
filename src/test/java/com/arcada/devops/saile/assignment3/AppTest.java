@@ -27,4 +27,12 @@ public class AppTest {
     	String[] actual = FriendsHandler.fetchFriends("SomeOtherLink");
     	assertNotEquals(expected, actual);
     }
+    
+    @Test
+    public void performanceTest() throws IOException {
+        long startTime = System.nanoTime();
+        String[] friendsList = FriendsHandler.fetchFriends("MyLink");
+        long duration = System.nanoTime() - startTime;
+        System.out.println("Finished in: " + duration + " ns");
+    }
 }
