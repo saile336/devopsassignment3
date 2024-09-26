@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;saile.assignment3&apos;&#x0D;&#x0A;- Original project: &apos;saile.assignment3&apos;&#x0D;&#x0A;- Original element: &apos;com.arcada.devops.saile.assignment3.FriendsHandler.java&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.arcada.devops.saile.assignment3{FriendsHandler.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1727355328914" subPackages="false" version="1.0"/>
+</session>

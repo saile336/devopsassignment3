@@ -1,0 +1,19 @@
+package com.arcada.devops.saile.assignment3;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+import com.arcada.devops.saile.assignment3.App.FriendsHandler;
+
+
+public class AppTest {
+
+    @Test
+    public void testLinkPositive() {
+    	String[] expected = {"David", "Lukas", "Bob", "Pena", "Irmi"};
+    	String[] actual = FriendsHandler.fetchFriends("MyLink");
+        assertEquals(expected, actual);
+    }
+}
